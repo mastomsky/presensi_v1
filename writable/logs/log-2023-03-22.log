@@ -1,0 +1,333 @@
+ERROR - 2023-03-22 10:02:57 --> mysqli_sql_exception: Unknown column 'id_karyawan2' in 'where clause' in C:\xampp\htdocs\presensi\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\presensi\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\presensi\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\presensi\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\presensi\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\presensi\app\Models\ModelPresensi.php(14): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\presensi\app\Controllers\Presensi.php(16): App\Models\ModelPresensi->cekPresensi()
+#6 C:\xampp\htdocs\presensi\system\CodeIgniter.php(934): App\Controllers\Presensi->index()
+#7 C:\xampp\htdocs\presensi\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Presensi))
+#8 C:\xampp\htdocs\presensi\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\presensi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-03-22 10:02:57 --> Unknown column 'id_karyawan2' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_presensi`
+WHERE `id_karyawan2` IS NULL
+AND `tgl_presensi` = :tgl_presensi:', [...], false)
+ 2 APPPATH\Models\ModelPresensi.php(14): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Presensi.php(16): App\Models\ModelPresensi->cekPresensi()
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Presensi->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Presensi))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-03-22 10:03:39 --> mysqli_sql_exception: Unknown column 'id_karyawan2' in 'where clause' in C:\xampp\htdocs\presensi\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\presensi\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\presensi\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\presensi\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\presensi\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\presensi\app\Models\ModelPresensi.php(14): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\presensi\app\Controllers\Presensi.php(16): App\Models\ModelPresensi->cekPresensi()
+#6 C:\xampp\htdocs\presensi\system\CodeIgniter.php(934): App\Controllers\Presensi->index()
+#7 C:\xampp\htdocs\presensi\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Presensi))
+#8 C:\xampp\htdocs\presensi\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\presensi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-03-22 10:03:39 --> Unknown column 'id_karyawan2' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_presensi`
+WHERE `id_karyawan2` IS NULL
+AND `tgl_presensi` = :tgl_presensi:', [...], false)
+ 2 APPPATH\Models\ModelPresensi.php(14): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Presensi.php(16): App\Models\ModelPresensi->cekPresensi()
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Presensi->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Presensi))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-03-22 10:03:47 --> mysqli_sql_exception: Unknown column 'id_karyawan2' in 'where clause' in C:\xampp\htdocs\presensi\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\presensi\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\presensi\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\presensi\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\presensi\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\presensi\app\Models\ModelPresensi.php(14): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\presensi\app\Controllers\Presensi.php(16): App\Models\ModelPresensi->cekPresensi()
+#6 C:\xampp\htdocs\presensi\system\CodeIgniter.php(934): App\Controllers\Presensi->index()
+#7 C:\xampp\htdocs\presensi\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Presensi))
+#8 C:\xampp\htdocs\presensi\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\presensi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-03-22 10:03:47 --> Unknown column 'id_karyawan2' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_presensi`
+WHERE `id_karyawan2` IS NULL
+AND `tgl_presensi` = :tgl_presensi:', [...], false)
+ 2 APPPATH\Models\ModelPresensi.php(14): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Presensi.php(16): App\Models\ModelPresensi->cekPresensi()
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Presensi->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Presensi))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-03-22 10:08:09 --> mysqli_sql_exception: Unknown column 'id_karyawan2' in 'where clause' in C:\xampp\htdocs\presensi\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\presensi\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\presensi\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\presensi\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\presensi\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\presensi\app\Models\ModelPresensi.php(14): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\presensi\app\Controllers\Presensi.php(16): App\Models\ModelPresensi->cekPresensi()
+#6 C:\xampp\htdocs\presensi\system\CodeIgniter.php(934): App\Controllers\Presensi->index()
+#7 C:\xampp\htdocs\presensi\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Presensi))
+#8 C:\xampp\htdocs\presensi\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\presensi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-03-22 10:08:09 --> Unknown column 'id_karyawan2' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_presensi`
+WHERE `id_karyawan2` IS NULL
+AND `tgl_presensi` = :tgl_presensi:', [...], false)
+ 2 APPPATH\Models\ModelPresensi.php(14): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Presensi.php(16): App\Models\ModelPresensi->cekPresensi()
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Presensi->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Presensi))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-03-22 10:08:09 --> mysqli_sql_exception: Unknown column 'id_karyawan2' in 'where clause' in C:\xampp\htdocs\presensi\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\presensi\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\presensi\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\presensi\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\presensi\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\presensi\app\Models\ModelPresensi.php(14): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\presensi\app\Controllers\Presensi.php(16): App\Models\ModelPresensi->cekPresensi()
+#6 C:\xampp\htdocs\presensi\system\CodeIgniter.php(934): App\Controllers\Presensi->index()
+#7 C:\xampp\htdocs\presensi\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Presensi))
+#8 C:\xampp\htdocs\presensi\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\presensi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-03-22 10:08:09 --> Unknown column 'id_karyawan2' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_presensi`
+WHERE `id_karyawan2` IS NULL
+AND `tgl_presensi` = :tgl_presensi:', [...], false)
+ 2 APPPATH\Models\ModelPresensi.php(14): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Presensi.php(16): App\Models\ModelPresensi->cekPresensi()
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Presensi->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Presensi))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-03-22 10:08:10 --> mysqli_sql_exception: Unknown column 'id_karyawan2' in 'where clause' in C:\xampp\htdocs\presensi\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\presensi\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\presensi\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\presensi\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\presensi\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\presensi\app\Models\ModelPresensi.php(14): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\presensi\app\Controllers\Presensi.php(16): App\Models\ModelPresensi->cekPresensi()
+#6 C:\xampp\htdocs\presensi\system\CodeIgniter.php(934): App\Controllers\Presensi->index()
+#7 C:\xampp\htdocs\presensi\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Presensi))
+#8 C:\xampp\htdocs\presensi\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\presensi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-03-22 10:08:10 --> Unknown column 'id_karyawan2' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_presensi`
+WHERE `id_karyawan2` IS NULL
+AND `tgl_presensi` = :tgl_presensi:', [...], false)
+ 2 APPPATH\Models\ModelPresensi.php(14): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Presensi.php(16): App\Models\ModelPresensi->cekPresensi()
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Presensi->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Presensi))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-03-22 10:08:10 --> mysqli_sql_exception: Unknown column 'id_karyawan2' in 'where clause' in C:\xampp\htdocs\presensi\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\presensi\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\presensi\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\presensi\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\presensi\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\presensi\app\Models\ModelPresensi.php(14): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\presensi\app\Controllers\Presensi.php(16): App\Models\ModelPresensi->cekPresensi()
+#6 C:\xampp\htdocs\presensi\system\CodeIgniter.php(934): App\Controllers\Presensi->index()
+#7 C:\xampp\htdocs\presensi\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Presensi))
+#8 C:\xampp\htdocs\presensi\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\presensi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-03-22 10:08:10 --> Unknown column 'id_karyawan2' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_presensi`
+WHERE `id_karyawan2` IS NULL
+AND `tgl_presensi` = :tgl_presensi:', [...], false)
+ 2 APPPATH\Models\ModelPresensi.php(14): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Presensi.php(16): App\Models\ModelPresensi->cekPresensi()
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Presensi->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Presensi))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-03-22 10:08:16 --> mysqli_sql_exception: Unknown column 'id_karyawan2' in 'where clause' in C:\xampp\htdocs\presensi\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\presensi\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\presensi\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\presensi\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\presensi\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\presensi\app\Models\ModelPresensi.php(14): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\presensi\app\Controllers\Presensi.php(16): App\Models\ModelPresensi->cekPresensi()
+#6 C:\xampp\htdocs\presensi\system\CodeIgniter.php(934): App\Controllers\Presensi->index()
+#7 C:\xampp\htdocs\presensi\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Presensi))
+#8 C:\xampp\htdocs\presensi\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\presensi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-03-22 10:08:16 --> Unknown column 'id_karyawan2' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_presensi`
+WHERE `id_karyawan2` IS NULL
+AND `tgl_presensi` = :tgl_presensi:', [...], false)
+ 2 APPPATH\Models\ModelPresensi.php(14): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Presensi.php(16): App\Models\ModelPresensi->cekPresensi()
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Presensi->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Presensi))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-03-22 10:08:55 --> mysqli_sql_exception: Unknown column 'id_karyawan2' in 'where clause' in C:\xampp\htdocs\presensi\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\presensi\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\presensi\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\presensi\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\presensi\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\presensi\app\Models\ModelPresensi.php(14): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\presensi\app\Controllers\Presensi.php(16): App\Models\ModelPresensi->cekPresensi()
+#6 C:\xampp\htdocs\presensi\system\CodeIgniter.php(934): App\Controllers\Presensi->index()
+#7 C:\xampp\htdocs\presensi\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Presensi))
+#8 C:\xampp\htdocs\presensi\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\presensi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-03-22 10:08:55 --> Unknown column 'id_karyawan2' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_presensi`
+WHERE `id_karyawan2` IS NULL
+AND `tgl_presensi` = :tgl_presensi:', [...], false)
+ 2 APPPATH\Models\ModelPresensi.php(14): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Presensi.php(16): App\Models\ModelPresensi->cekPresensi()
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Presensi->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Presensi))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-03-22 10:13:42 --> mysqli_sql_exception: Unknown column 'id_karyawan2' in 'where clause' in C:\xampp\htdocs\presensi\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\presensi\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\presensi\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\presensi\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\presensi\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\presensi\app\Models\ModelPresensi.php(14): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\presensi\app\Controllers\Presensi.php(16): App\Models\ModelPresensi->cekPresensi()
+#6 C:\xampp\htdocs\presensi\system\CodeIgniter.php(934): App\Controllers\Presensi->index()
+#7 C:\xampp\htdocs\presensi\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Presensi))
+#8 C:\xampp\htdocs\presensi\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\presensi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-03-22 10:13:42 --> Unknown column 'id_karyawan2' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_presensi`
+WHERE `id_karyawan2` IS NULL
+AND `tgl_presensi` = :tgl_presensi:', [...], false)
+ 2 APPPATH\Models\ModelPresensi.php(14): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Presensi.php(16): App\Models\ModelPresensi->cekPresensi()
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Presensi->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Presensi))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-03-22 10:13:46 --> mysqli_sql_exception: Unknown column 'id_karyawan2' in 'where clause' in C:\xampp\htdocs\presensi\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\presensi\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\presensi\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\presensi\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\presensi\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\presensi\app\Models\ModelPresensi.php(14): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\presensi\app\Controllers\Presensi.php(16): App\Models\ModelPresensi->cekPresensi()
+#6 C:\xampp\htdocs\presensi\system\CodeIgniter.php(934): App\Controllers\Presensi->index()
+#7 C:\xampp\htdocs\presensi\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Presensi))
+#8 C:\xampp\htdocs\presensi\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\presensi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-03-22 10:13:46 --> Unknown column 'id_karyawan2' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_presensi`
+WHERE `id_karyawan2` IS NULL
+AND `tgl_presensi` = :tgl_presensi:', [...], false)
+ 2 APPPATH\Models\ModelPresensi.php(14): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Presensi.php(16): App\Models\ModelPresensi->cekPresensi()
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Presensi->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Presensi))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-22 15:21:01 --> Call to a member function validate() on null
+in APPPATH\Controllers\Kantor.php on line 55.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Kantor->process()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kantor))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-03-22 15:23:25 --> mysqli_sql_exception: Unknown column 'alamat' in 'field list' in C:\xampp\htdocs\presensi\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\presensi\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\xampp\htdocs\presensi\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\presensi\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\presensi\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\presensi\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\presensi\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\presensi\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\presensi\app\Controllers\Kantor.php(61): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\presensi\system\CodeIgniter.php(934): App\Controllers\Kantor->process()
+#9 C:\xampp\htdocs\presensi\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kantor))
+#10 C:\xampp\htdocs\presensi\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\presensi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-03-22 15:23:25 --> Unknown column 'alamat' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tbl_kantor` (`nama_kantor`, `alamat`, `lokasi_kantor`, `radius_kantor`) VALUES (:nama_kantor:, :alamat:, :lokasi_kantor:, :radius_kantor:)', [...], false)
+ 2 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Kantor.php(61): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Kantor->process()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kantor))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-03-22 15:23:37 --> mysqli_sql_exception: Unknown column 'alamat' in 'field list' in C:\xampp\htdocs\presensi\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\presensi\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\xampp\htdocs\presensi\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\presensi\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\presensi\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\presensi\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\presensi\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\presensi\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\presensi\app\Controllers\Kantor.php(61): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\presensi\system\CodeIgniter.php(934): App\Controllers\Kantor->process()
+#9 C:\xampp\htdocs\presensi\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kantor))
+#10 C:\xampp\htdocs\presensi\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\presensi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-03-22 15:23:37 --> Unknown column 'alamat' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tbl_kantor` (`nama_kantor`, `alamat`, `lokasi_kantor`, `radius_kantor`) VALUES (:nama_kantor:, :alamat:, :lokasi_kantor:, :radius_kantor:)', [...], false)
+ 2 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Kantor.php(61): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Kantor->process()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kantor))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
